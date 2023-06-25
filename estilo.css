@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 body {
     background-color: black;
     color: white;
@@ -83,6 +85,55 @@ body {
 .image-container img {
     max-width: 80%;
     height: auto;
+}
+
+.produtos {
+    background-image: url(imagens/parte\ 2\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 800px;
+}
+
+.preferidos-texto {
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 2rem;
+}
+
+.tipos-produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.creatina {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.kit-whey {
+    display: flex;
+}
+
+.kit-aumento {
+    display: flex;
+}
+
+.bcaa {
+    display: flex;
+}
+
+.whey {
+    display: flex;
+}
+
+.texto-produtos {
+    font-family: 'Anton';
+    color: red;
+}
+
+.valor {
+    color: white;
 }
 
 .product-image {
