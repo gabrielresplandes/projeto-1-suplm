@@ -393,6 +393,59 @@ body {
     position: relative;
 }
 
+.image-text {
+    position: absolute;
+    bottom: 110px;
+    left: 120px;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 10px;
+}
+
+.second-text {
+    position: absolute;
+    bottom: 85px;
+    left: 110px;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 10px;
+}
+
+.second-text p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.additional-text {
+    position: absolute;
+    bottom: 150px;
+    left: 120px;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 3px;
+}
+
+.additional-text p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.image-text {
+    font-family: 'Ubuntu', sans-serif;
+    left: 100px;
+}
+
+.image-text p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
 .footer-image img {
     width: 100%;
     height: auto;
@@ -429,6 +482,7 @@ body {
 .footer-text p {
     font-size: 16px;
     margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Media query para dispositivos móveis */
