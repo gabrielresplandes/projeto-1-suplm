@@ -381,7 +381,7 @@ body {
     top: -1px;
     right: -2px;
     max-width: 100%;
-    height: 562px;
+    height: 750px;
     padding-left: 20px;
 }
 
@@ -393,6 +393,7 @@ body {
 
 .footer-image {
     position: relative;
+    width: 1900px;
 }
 
 .image-text {
@@ -402,6 +403,7 @@ body {
     transform: translate(-50%, -50%);
     background-color: transparent;
     padding: 10px;
+    padding-bottom: 78px;
 }
 
 .second-text {
@@ -411,6 +413,7 @@ body {
     transform: translate(-50%, -50%);
     background-color: transparent;
     padding: 10px;
+    padding-bottom: 77px;
 }
 
 .second-text p {
@@ -427,6 +430,7 @@ body {
     transform: translate(-50%, -50%);
     background-color: transparent;
     padding: 3px;
+    padding-bottom: 75px;
 }
 
 .additional-text p {
@@ -440,7 +444,7 @@ body {
 .extra-text {
     position: absolute;
     bottom: 45px;
-    left: 115px;
+    left: 120px;
     transform: translate(-50%, -50%);
     background-color: transparent;
     padding: 10px;
@@ -448,12 +452,13 @@ body {
     color: white;
     font-size: 18px;
     text-align: center;
+    padding-bottom: 85px;
 }
 
 .new-text {
     position: absolute;
     bottom: 15px;
-    left: 180px;
+    left: 187px;
     transform: translate(-50%, -50%);
     background-color: transparent;
     padding: 10px;
@@ -461,18 +466,20 @@ body {
     color: white;
     font-size: 18px;
     text-align: center;
+    padding-bottom: 86px;
 }
 
 .additional-text-2 {
     position: absolute;
     bottom: 25px;
-    left: 25px;
+    left: 33px;
     background-color: transparent;
     padding: 10px;
     font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 18px;
     text-align: center;
+    padding-bottom: 125px;
 }
 
 .image-text {

@@ -68,7 +68,7 @@ body {
 }
 
 img {
-    width: 1426px;
+    width: 1903px;
 }
 
 h1 {
@@ -239,6 +239,7 @@ h1 {
 
 /* Media query para dispositivos móveis */
 @media screen and (max-width: 767px) {
+
     .image-text,
     .second-text,
     .additional-text,
@@ -253,12 +254,12 @@ h1 {
         padding: 0;
         margin-bottom: 10px;
     }
-    
+
     .footer-content {
         display: block;
         text-align: center;
     }
-    
+
     .footer-content .logo {
         margin-right: 0;
         margin-bottom: 10px;
@@ -314,3 +315,4 @@ h1 {
         max-width: 90%;
         max-height: 200px;
     }
+}
